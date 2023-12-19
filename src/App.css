@@ -290,7 +290,8 @@ a:hover {
   width: 180px;
 }
 .news-card {
-  min-height: 300px !important;
+  height: 300px !important;
+  overflow-y: auto;
 }
 .news-image-container {
   display: flex !important;
@@ -310,10 +311,8 @@ a:hover {
 }
 .provider-container {
   display: flex;
-  justify-content: space-between;
-}
-.provider-name {
-  margin-left: 10px;
+  justify-content: flex-end;
+  justify-self: flex-end;
 }
 
 .chart-header {
